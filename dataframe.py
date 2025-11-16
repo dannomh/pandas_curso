@@ -14,4 +14,6 @@ df = pd.DataFrame(data)
 
 #print(df["nombre"][df["ciudad"]=="Quito"])
 
-print(df[(df["ciudad"]=="Quito") & (df["edad"] > 25)])
+#print(df[(df["ciudad"]=="Quito") & (df["edad"] > 25)])
+
+#print(df[(df["puntos"]>90) & (df["edad"]>30)])
