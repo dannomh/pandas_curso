@@ -8,4 +8,10 @@ data = {
 }
 
 df = pd.DataFrame(data)
-print(df["edad"])# muestra SOLO la columna edad
+#print(df["edad"])# muestra SOLO la columna edad
+
+#print(df[["edad","nombre"]])
+
+#print(df["nombre"][df["ciudad"]=="Quito"])
+
+print(df[(df["ciudad"]=="Quito") & (df["edad"] > 25)])
